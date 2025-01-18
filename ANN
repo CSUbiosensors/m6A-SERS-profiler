@@ -1,4 +1,0 @@
-from sklearn.utils import shuffle
-import pandas as pd
-train=pd.read_csv('./Nucleotides.csv', engine='python')
-train=shuffle(train, random_state=1)
